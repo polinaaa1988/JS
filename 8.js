@@ -3,15 +3,15 @@ myMap.set('key1', 'value1' );
 myMap.set('key2', 'value2' );
 myMap.set('key3', 'value3' );
 
-myMap.forEach((value, key, map) => {
-  console.log('ключ-'+ ${key} + ', значение-'+ ${value}') 
-;
+// myMap.forEach((value, key, map) => {
+//   console.log('ключ-'+ ${key} + ', значение-'+ ${value}') 
+// ;
 
 
-let myMap = new Map();
-myMap.set('key1', 'value1' );
-myMap.set('key2', 'value2' );
-myMap.set('key3', 'value3' );
+// let myMap = new Map();
+// myMap.set('key1', 'value1' );
+// myMap.set('key2', 'value2' );
+// myMap.set('key3', 'value3' );
 
 
 // for (let name of myMap.keys()){
@@ -25,5 +25,5 @@ myMap.set('key3', 'value3' );
 const cb = (value, key) => console.log(`Ключ -  ${key} , Значение - ${value}`);
 
 
-person.forEach(cb)
+myMap.forEach(cb)
 
